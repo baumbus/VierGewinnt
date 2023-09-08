@@ -4,9 +4,9 @@ Das hier ist eine Vier Gewinnt Implementierung für ein Arduino Uno
 
 # Todo
 
-- [] Lokaler Multiplayer
-- [] Andere Methode für die Zufallszahlen
-- [] Optimierung des Bewertungsalgorithmus
+- [ ] Lokaler Multiplayer
+- [ ] Andere Methode für die Zufallszahlen
+- [ ] Optimierung des Bewertungsalgorithmus
 
 # Lizenz
 
