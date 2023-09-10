@@ -1,5 +1,0 @@
-{
-    "sketch": "VierGewinnt.ino",
-    "output": "build",
-    "board": "arduino:avr:uno"
-}
