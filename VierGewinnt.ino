@@ -53,7 +53,7 @@ void loop()
     // Rand vorbelegen ........................................
     if (Spielbrett[1][1] == 0)
     {
-        Rand_vorbelegen();
+        fill_outside();
     }
 
     // Eröffnungsentscheidung .................................
@@ -103,9 +103,7 @@ void loop()
 }
 // HAUPTPROGRAMM ENDE *****************************************************
 
-// Rand vorbelegen --------------------------------------------------------
-void Rand_vorbelegen()
-{
+void fill_outside() {
     int i, j;
     for (i = 1; i < 15; i++)
     {
