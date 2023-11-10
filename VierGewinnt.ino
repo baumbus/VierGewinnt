@@ -1,13 +1,10 @@
 #include <Adafruit_NeoPixel.h>
 
+#include "game.h"
+
 #ifdef __AVR__
 #include <avr/power.h>
 #endif
-
-#define LED_PIN 2
-#define LED_COUNT 64
-
-Adafruit_NeoPixel strip(LED_COUNT, LED_PIN, NEO_GRB + NEO_KHZ800);
 
 #define TASTE_LINKS 7
 #define TASTE_RECHTS 6
