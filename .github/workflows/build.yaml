@@ -12,4 +12,5 @@ jobs:
                     - ./
                 libraries: |
                     - name: "Adafruit NeoPixel"
+                    - name: "LiquidCrystal I2C"
                 enable-deltas-report: true
