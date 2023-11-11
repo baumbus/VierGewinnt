@@ -1,0 +1,15 @@
+on:
+    - push
+    - pull_request
+jobs:
+    compile:
+        runs-on: ubuntu-latest
+        steps:
+            - uses: actions/checkout@v4
+            - uses: arduino/compile-skteches@v1
+                with:
+                    sketch-paths: |
+                        - ./
+                    libraries: |
+                        - name: "Adafruit NeoPixel"
+                    enable-deltas-report: true
